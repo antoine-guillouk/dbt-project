@@ -1,0 +1,14 @@
+my_dbt_project:
+  outputs:
+    dev:
+      dataset: dbt_project
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: '/Users/antoine.guilloukeredan/Documents/dbt-cloud-training/service_account.json'
+      location: US
+      method: service-account
+      priority: interactive
+      project: antoine-sandbox-e92e
+      threads: 4
+      type: bigquery
+  target: dev
