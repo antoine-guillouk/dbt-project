@@ -7,7 +7,7 @@ sources:
     tables:
       - name: payment
         columns:
-          - name : id
-            tests :
+          - name: id
+            tests:
               - unique
               - not_null
